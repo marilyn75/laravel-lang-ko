@@ -61,7 +61,7 @@ return [
     'min' => [
         'numeric' => ':attribute 값이 :min 보다 작습니다.',
         'file' => ':attribute 값이 :min 킬로바이트보다 작습니다.',
-        'string' => ':attribute 값이 :min 글자 이상으로 작성하셔야합니다.',
+        'string' => ':attribute 값은 :min 글자 이상으로 작성하셔야합니다.',
         'array' => ':attribute 값이 :max 개보다 적습니다.',
     ],
     'not_in' => ':attribute 값이 유효하지 않습니다.',
@@ -84,7 +84,7 @@ return [
     ],
     'string' => ':attribute 값이 글자가 아닙니다.',
     'timezone' => ':attribute 값이 올바른 시간대가 아닙니다.',
-    'unique' => ':attribute 값은 이미 사용 중입니다.',
+    'unique' => '입력하신 :attribute 값은 이미 사용 중입니다.',
     'url' => ':attribute 값이 유효한 URL이 아닙니다.',
 
     /*
@@ -127,6 +127,9 @@ return [
         'code'=> '제품 ID',
         'price'=> '가격',
         'context'=> '상세설명',
+        'agree1'=> '만 14세 이상 확인',
+        'agree2'=> '부동산 서비스 이용약관 동의',
+        'agree3'=> '위치기반서비스 이용약관 동의',
 //        'use'=> '제품용도',
 //        'size'=> '제품규격',
     ],
